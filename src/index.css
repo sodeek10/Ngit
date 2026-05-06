@@ -1,0 +1,35 @@
+
+.navbar-toggler .navbar-toggler-icon {
+  /* stroke='%23000000'  lines solid black */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 10h22M4 20h15'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+  border: none !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.nav-link-black {
+  color: #000000 !important;
+  transition: color 0.3s ease; 
+}
+
+.nav-link-black:hover {
+  color: purple !important; 
+}
+html {
+  scroll-behavior: smooth;
+}
+#track-section {
+  scroll-margin-top: 100px; 
+}
+#payandApply{
+  scroll-margin-top: 300px; 
+}
